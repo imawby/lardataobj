@@ -96,14 +96,16 @@
  <class name="recob::SpacePoint"       ClassVersion="12"                   >
   <version ClassVersion="12" checksum="4256037352"/>
  </class>
- <class name="recob::Vertex"           ClassVersion="16"                   >
+ <class name="recob::Vertex"           ClassVersion="17"                   >
+  <version ClassVersion="17" checksum="2961210270"/>
   <version ClassVersion="16" checksum="4062605054"/>
   <version ClassVersion="15" checksum="4062605054"/>
   <version ClassVersion="14" checksum="2896315066"/>
   <version ClassVersion="13" checksum="1229739518"/>
   <version ClassVersion="12" checksum="1317803878"/>
  </class>
- <class name="recob::Slice"            ClassVersion="16"                   >
+ <class name="recob::Slice"            ClassVersion="17"                   >
+  <version ClassVersion="17" checksum="1252584213"/>
   <version ClassVersion="16" checksum="2387190153"/>
   <version ClassVersion="15" checksum="2387190153"/>
   <version ClassVersion="14" checksum="2291287429"/>
@@ -120,7 +122,8 @@
   <version ClassVersion="18" checksum="507533507"/>
   <version ClassVersion="17" checksum="1882235791"/>
  </class>
- <class name="recob::TrackFitHitInfo" ClassVersion="11"                   >
+ <class name="recob::TrackFitHitInfo" ClassVersion="12"                   >
+  <version ClassVersion="12" checksum="2868414602"/>
   <version ClassVersion="11" checksum="3090239358"/>
   <version ClassVersion="10" checksum="2600776094"/>
  </class>
@@ -471,7 +474,8 @@
   <!-- recob::Trajectory -->
   
   <!--   class -->
-  <class name="recob::Trajectory" ClassVersion="13" >
+  <class name="recob::Trajectory" ClassVersion="14" >
+   <version ClassVersion="14" checksum="3480475097"/>
    <version ClassVersion="13" checksum="3123531253"/>
    <version ClassVersion="12" checksum="3123531253"/>
    <version ClassVersion="11" checksum="2541107521"/>
@@ -479,8 +483,7 @@
   </class>
 
 <class name="std::vector<ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<Double32_t>, ROOT::Math::GlobalCoordinateSystemTag>>"/>
-<class name="std::vectror<ROOT::Math::DisplacementVector3D <ROOT::Math::Cartesian3D<Double32_t>, ROOT::Math::GlobalCoordinateSystemTag>"/>
-
+<class name="std::vector<ROOT::Math::DisplacementVector3D <ROOT::Math::Cartesian3D<Double32_t>, ROOT::Math::GlobalCoordinateSystemTag>>"/>
 
     <!-- schema evolution rules -->
       <!-- version 11 -->
@@ -591,7 +594,8 @@
   <class name="util::flags::FlagSet<32U, unsigned int>" />
   
   <!--   class -->
-  <class name="recob::TrackTrajectory" ClassVersion="12" >
+  <class name="recob::TrackTrajectory" ClassVersion="13" >
+   <version ClassVersion="13" checksum="239891311"/>
    <version ClassVersion="12" checksum="683542083"/>
    <version ClassVersion="11" checksum="683542083"/>
    <version ClassVersion="10" checksum="4198737063"/>
